@@ -1,0 +1,181 @@
+/* This is the name at the top */
+h1  {
+    color: blue; 
+    font-size: 50px; 
+    text-align: center;
+    text-decoration: underline;
+    width: 1569px;
+    
+    
+}
+
+/* This is the About Me */
+h2  {
+    color: black; 
+    font-size: 40px; 
+    text-decoration: underline; 
+    display: flex;
+
+}
+/* To underline the About Me */
+h3  {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+/* Background color */ 
+html    {
+    background-color: #f5f5dc;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+/* Information about me. */
+#AboutMe {
+    text-align: center;  
+    width: 1569px;
+    height: 200px; 
+    display: flex; 
+   /* border: solid; /* 1569 */
+   /* border-color: blue; */
+ /*   flex:  1 30px; */
+    font-style: oblique;
+    font-size: 20px;
+    
+}
+
+/* The table for Skills */
+div {
+   /* border: dashed; */
+    border-color: grey;
+   /* width: 200px; 
+    height: 200px; */
+    display: grid;
+    grid-template-areas: 1fr 1fr 1fr;
+
+}
+/* This was intended to do something, but trashed it away. Will keep if I refer back in the future. */
+#Other  {  
+   
+   /* border: solid;
+    border-color: red;
+    width: 600px;
+    height: 100px;
+    background-color: green;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    */
+}
+/* Gave table border */
+table,
+
+td  {
+    border: solid; 
+    
+    font-size: 35px;
+    
+}
+
+
+thead, 
+tfoot   {
+    text-align: center;
+    
+}
+
+/* Centering the table in the middle */
+.Skills {
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 200px;
+    height: 100px;
+    
+}
+
+#Java   {
+    color: red;
+    
+}
+
+#HTML   {
+    color: green;
+}
+
+#CSS    {
+    color: teal;
+}
+
+/* Made Projects bigger */
+#projects   {
+    font-size: 20px;
+}
+
+/* Contact word, changed size and underlined. */
+#contact    {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+/* Made my email bold for easier visiblility */
+#email  {
+    font-weight: bold;
+}
+
+
+ /*.Skills {
+    display: grid; 
+    grid-template-columns: 100px 100px 100px 100px; 
+    grid-template-rows: 100px;
+   
+    border: solid; 
+    position: relative;
+    width: 100%; 
+    
+}
+
+
+.d1 {
+    
+    vertical-align: bottom;
+    text-align: center;
+    
+} 
+
+/*.d1 {
+    position: absolute; 
+    top : 50px;
+    left: -1px;
+    top: 2px;
+    width: 100%; 
+}
+
+.d1 span    {
+    color: black; 
+    font: bold;
+    letter-spacing: -1px;
+    background: rgb(255, 255, 255); 
+    background: rgba( 255, 255, 255);  
+    padding: 10px;
+    width: 20px;
+} 
+
+.pic    {
+    width: 60%;
+}   
+ */
+
+
+
+
+/* <input class = "button" type = "button" value = "This is a button">
+Knock knock
+
+Who's there?
+
+Hatch!
+<img class = "pic" src = "https://image.freepik.com/free-icon/java_318-32027.jpg" alt = "Java logo"/> 
+Hatch who?
+
+Bless you! */
+
